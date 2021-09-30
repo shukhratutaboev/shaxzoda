@@ -1,3 +1,7 @@
+#30-sentabr 2021-yil
+#FinalExam Foundation
+#6-savol Kichkina shaxzoda
+
 from aylana import Aylana
 from shaxzoda import Shaxzoda
 

@@ -5,7 +5,7 @@ class Shaxzoda:
         self.start = Nuqta(x1, y1)
         self.end = Nuqta(x2, y2)
 
-    def kesibUtadimi(self, aylana: Aylana):  
+    def kesibUtadimi(self, aylana: Aylana):  #Aylana qabul qiladi va shaxzoda shu aylanani kesib o'tsa True yo'qsa False qaytaradi
         if aylana.niIchidami(self.start) and aylana.niIchidami(self.end):  #Tayyor metodlardan foydalanamiz
             return False
         elif aylana.niIchidami(self.start) or aylana.niIchidami(self.end):
